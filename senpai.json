@@ -1,0 +1,8 @@
+{
+    "Paths": [
+        "vendor/netherphp/senpai/src"
+    ],
+    "Extensions": [
+        "php"
+    ]
+}
