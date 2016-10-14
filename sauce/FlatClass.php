@@ -47,4 +47,16 @@ class OldSkoolRootClass {
 	InstanceMethodTakesAndReturnsBool(Bool $Arg1):
 	Bool { return TRUE; }
 
+	////////
+	////////
+
+	static public function
+	GlobalFunctionPublic() { return; }
+
+	static private function
+	GlobalFunctionProtected() { return; }
+
+	static private function
+	GlobalFunctionPrivate() { return; }
+
 }

@@ -182,12 +182,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/netherphp/senpai.git",
-                "reference": "fd5e17ffbbc51bdb7c9f2af8d76947403ce6a9ef"
+                "reference": "87de8a7e0e9e49375b0eaf290714119ced35b275"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/netherphp/senpai/zipball/fd5e17ffbbc51bdb7c9f2af8d76947403ce6a9ef",
-                "reference": "fd5e17ffbbc51bdb7c9f2af8d76947403ce6a9ef",
+                "url": "https://api.github.com/repos/netherphp/senpai/zipball/87de8a7e0e9e49375b0eaf290714119ced35b275",
+                "reference": "87de8a7e0e9e49375b0eaf290714119ced35b275",
                 "shasum": ""
             },
             "require": {
@@ -222,7 +222,7 @@
                 "documentation",
                 "php"
             ],
-            "time": "2016-08-18 00:52:31"
+            "time": "2016-10-14 19:36:31"
         },
         {
             "name": "netherphp/stash",
