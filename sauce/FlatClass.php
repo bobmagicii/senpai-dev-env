@@ -1,29 +1,50 @@
 <?php
 
-class ClassFlat {
+class OldSkoolRootClass {
+
+	const
+	ClassConstant1 = 1;
+
+	const
+	ClassConstant2 = 2;
+
+	////////
+	////////
+
+	public
+	$InstancePropertyPublic = 'public';
+
+	protected
+	$InstancePropertyProtected = 'protected';
+
+	private
+	$InstancePropertyPrivate = 'private';
+
+	////////
+	////////
 
 	public function
-	MethodPublic() { return; }
+	InstanceMethodPublic() { return; }
 
 	protected function
-	MethodProtected() { return; }
+	InstanceMethodProtected() { return; }
 
 	private function
-	MethodPrivate() { return; }
+	InstanceMethodPrivate() { return; }
 
 	////////
 	////////
 
 	public function
-	MethodReturnsBool():
+	InstanceMethodReturnBool():
 	Bool { return TRUE;
 	}
 
 	public function
-	MethodTakesBool(Bool $Arg1) { return; }
+	InstanceMethodTakesBool(Bool $Arg1) { return; }
 
 	public function
-	MethodTakesBoolReturnsBool(Bool $Arg1):
+	InstanceMethodTakesAndReturnsBool(Bool $Arg1):
 	Bool { return TRUE; }
 
 }

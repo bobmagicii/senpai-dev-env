@@ -5,7 +5,10 @@ namespace VendorSpace\ProjectSpace;
 class AppClass {
 
 	const
-	ProjectConstant = 42;
+	FirstConstant = 1;
+
+	const
+	SecondConstant = 2;
 
 	public
 	$AppClassProperty;
