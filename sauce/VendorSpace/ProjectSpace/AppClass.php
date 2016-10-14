@@ -2,16 +2,16 @@
 
 namespace VendorSpace\ProjectSpace;
 
-class ProjectClass {
+class AppClass {
 
 	const
 	ProjectConstant = 42;
 
 	public
-	$ProjectProperty;
+	$AppClassProperty;
 
 	public function
-	ProjectMethod():
+	AppClassMethod():
 	Void {
 
 		return;
