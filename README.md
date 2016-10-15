@@ -7,7 +7,7 @@ is configured to have Senpai notice Senpai as you work on Senpai.
 
 - git clone git@github.com:bobmagicii/senpai-dev-env
 - cd senpai-dev-env
-- composer install
+- composer update
 
 # Optional Setup.
 

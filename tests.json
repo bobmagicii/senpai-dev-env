@@ -1,4 +1,6 @@
 {
+    "OutputFile": "tests.dat",
+    "OutputDir": "tauce",
     "Paths": [
         "sauce"
     ],

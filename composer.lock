@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dc63ba58adc61a2917449cf6b62aa033",
-    "content-hash": "8d9e1d349ab25da6d7f06e267eed90ab",
+    "hash": "af4dcf6b9ca69a58c1b0f1cd0fe1e2d4",
+    "content-hash": "2b326188d85ce731ccc944aae06de62c",
     "packages": [
         {
             "name": "netherphp/console",
