@@ -94,16 +94,16 @@
         },
         {
             "name": "netherphp/object",
-            "version": "v2.1.8",
+            "version": "v2.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/netherphp/object.git",
-                "reference": "119726b8ebbded967ca6b772c29ed0c8f214e2a3"
+                "reference": "89ff7a9b69527dc5d636194fb0ce6643e6ff0454"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/netherphp/object/zipball/119726b8ebbded967ca6b772c29ed0c8f214e2a3",
-                "reference": "119726b8ebbded967ca6b772c29ed0c8f214e2a3",
+                "url": "https://api.github.com/repos/netherphp/object/zipball/89ff7a9b69527dc5d636194fb0ce6643e6ff0454",
+                "reference": "89ff7a9b69527dc5d636194fb0ce6643e6ff0454",
                 "shasum": ""
             },
             "require": {
@@ -132,7 +132,7 @@
                 "object",
                 "php"
             ],
-            "time": "2016-07-07 22:18:44"
+            "time": "2016-10-20 21:32:19"
         },
         {
             "name": "netherphp/option",
@@ -182,12 +182,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/netherphp/senpai.git",
-                "reference": "560ef885c2692b2e1337593e2d379bb99775ea1e"
+                "reference": "145cc997197b893f63ff597fdc4adcc5686026bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/netherphp/senpai/zipball/560ef885c2692b2e1337593e2d379bb99775ea1e",
-                "reference": "560ef885c2692b2e1337593e2d379bb99775ea1e",
+                "url": "https://api.github.com/repos/netherphp/senpai/zipball/145cc997197b893f63ff597fdc4adcc5686026bc",
+                "reference": "145cc997197b893f63ff597fdc4adcc5686026bc",
                 "shasum": ""
             },
             "require": {
@@ -222,7 +222,7 @@
                 "documentation",
                 "php"
             ],
-            "time": "2016-10-15 00:12:24"
+            "time": "2016-10-20 21:43:14"
         },
         {
             "name": "netherphp/stash",

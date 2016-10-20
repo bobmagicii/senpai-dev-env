@@ -1,6 +1,12 @@
 {
+    "ProjectName": "Test Project",
     "OutputFile": "tests.dat",
-    "OutputDir": "render",
+    "OutputDir": "docs-tests",
+    "Formats": [
+        "html",
+        "json",
+        "md"
+    ],
     "Paths": [
         "sauce"
     ],
