@@ -1,6 +1,6 @@
 {
     "OutputFile": "tests.dat",
-    "OutputDir": "tauce",
+    "OutputDir": "render",
     "Paths": [
         "sauce"
     ],
