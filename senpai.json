@@ -1,6 +1,14 @@
 {
+    "ProjectName": "Senpai Documentation",
+    "OutputFile": "senpai.dat",
+    "OutputDir": "docs",
+    "Formats": [
+        "html",
+        "json",
+        "md"
+    ],
     "Paths": [
-        "vendor/netherphp/senpai/src"
+        "vendor\/netherphp\/senpai\/src"
     ],
     "Extensions": [
         "php"

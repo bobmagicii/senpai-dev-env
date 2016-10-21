@@ -1,0 +1,122 @@
+*
+{ box-sizing: border-box; font-family: 'Roboto', sans-serif; font-weight: 300; letter-spacing: 0.01em; }
+
+html, body, section,
+dl, dt, dd
+{ margin: 0px; padding: 0px; }
+
+p
+{ margin: 0px 0px 16px 0px; }
+
+a:link, a:visited,
+a:active, a:hover
+{ color: #000; text-decoration: none; }
+
+/*******************************************************************************
+*******************************************************************************/
+
+div.PageContain
+{ width: 100%; }
+
+div.PageContain section
+{ margin: 0px auto; width: 960px; }
+
+div.Header
+{ background-color: rgba(0,0,0,0.05); background-image: url(../gfx/bg3.jpg); padding: 20px 0px; }
+
+div.Header .Logo
+{ float: left; }
+
+div.Header .Nav
+{ float: right; list-style-type: none; margin: 0px; padding: 0px; }
+
+div.Header .Nav li
+{ display: inline-block; margin: 0px 16px 0px 0px; padding: 0px; }
+
+div.Header .Intro
+{ padding: 75px 0px 75px 0px; }
+
+div.Header .Intro h1
+{ font-size: 3em; margin: 0px; padding: 0px; line-height: normal; }
+
+div.Header .Intro p
+{ font-size: 1.4em; }
+
+div.Main .Content
+{ float: left; padding: 32px 16px 0px 0px; width: 75%; }
+
+div.Main .Sidebar
+{ float: right; padding: 32px 0px 0px 16px; width: 25%; }
+
+h2.Heading
+{ border-bottom: 1px solid #eee; font-weight: 400; }
+
+dl.ItemList,
+dl.ItemList dt,
+dl.ItemList dd
+{ margin: 0px; padding: 0px; }
+
+dl.ItemList
+{ font-size: 0.8em; margin-bottom: 16px; }
+
+dl.ItemList dt
+{ color: #bbb; padding: 0px 0px 8px 0px; }
+
+dl.ItemList dd
+{ }
+
+dl.ItemList dd > a,
+dl.ItemList dd > span
+{ background-color: #eee; border-bottom: 1px solid #ddd; display: block; margin: 0px; padding: 8px; }
+
+dl.ItemList dd > a > span,
+dl.ItemList dd > span > span
+{ background-color: #ccc; border-radius: 4px; float: right; padding: 0px 4px; }
+
+dl.ItemList dd:last-of-type a,
+dl.ItemList dd:last-of-type span
+{ border-bottom: 0px; }
+
+dl.Lang
+{ margin-bottom: 32px; }
+
+dl.Lang dt
+{ font-weight: 400; }
+
+dl.Lang dd.Comment
+{ clear: both; padding-top: 16px; }
+
+dl.Lang:not(.Class) dd.Comment
+{ padding-left: 32px; padding-right: 32px; }
+
+.LangTag
+{ background: #eee; border-radius: 4px; display: inline-block; font-size: 0.70em; font-weight: 700; margin-right: 0px; margin-bottom: 4px; padding: 2px 8px; text-transform: uppercase; }
+
+.LangTag span
+{ font-weight: 300; text-transform: none; }
+
+/*******************************************************************************
+*******************************************************************************/
+
+.FloatClear
+{ border: 0px; clear: both; float: none; }
+
+/*******************************************************************************
+*******************************************************************************/
+
+@media (max-width: 1024px) {
+	div.PageContain section
+	{ width: 600px; }
+}
+
+@media (max-width: 664px) {
+	div.PageContain section
+	{ width: auto; }
+
+	div.Header
+	{ padding: 20px 32px; }
+
+	div.Main .Sidebar,
+	div.Main .Content
+	{ float: none; padding: 32px; width: 100%; }
+}
